@@ -1,16 +1,22 @@
-# credit-risk-modeling
+# Credit Risk Modeling
 
 Utilizing XGBoost to predict credit risk (default probability) for loans, leveraging XGBoost `interation_constraints` to improve explanability of the trees, and explore scorecard value for each independent variable based on its feature importance plot and tree plot. 
 
 ## Model Result
 
 ### Feature Importance
-![](image/feature_importance.png)
+![1](image/feature_importance.png)
 
-### Sample Tree
-![](image/cnsscore_tree.png)
+### Tree Plot
+
+Credit Score - Node Split
+![2](image/cnsscore_tree.png)
+
+LTV - Node Split
+![3](image/ltv_tree.png)
 
 
+---
 
 Dataset source: [Kaggle]('https://www.kaggle.com/datasets/sneharshinde/ltfs-av-data?select=train.csv')
 
