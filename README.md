@@ -1,6 +1,6 @@
 # Credit Risk Modeling
 
-Utilizing XGBoost to predict credit risk (default probability) for loans, leveraging XGBoost `interation_constraints` to improve explanability of the trees, and explore scorecard value for each independent variable based on its feature importance plot and tree plot. 
+Utilizing tree-based model (XGBoost) to predict credit risk (probability of default) for loans, leveraging `interation_constraints` to improve interpretability of the model and tree structures, and exploring scorecard feature development based on feature importance and tree plot.
 
 ## Model Result
 
